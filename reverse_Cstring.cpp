@@ -1,6 +1,6 @@
+/*Reverse a cstring. e.g "hello" becomes "olleh"*/
+
 #include <iostream>
-
-
 using namespace std;
 char* reverse_word(char* word){
 	char* init = word;
