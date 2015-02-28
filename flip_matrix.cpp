@@ -1,4 +1,12 @@
-//USE OF MAP IN C++
+/*given a NxM matrix where each row consisting of value 'P' or 'T'.
+we can flip the column to get P in place of T and vice versa. 
+We are being asked to flip as many number of times as we want and
+get the maximum number of rows containing same character. either all Ts or all Ps
+for eg. we have a matrix TPT
+						 PTP
+						 PPP
+If we flip second column once we will get row 1 and row 2 as TTT and PPP. so answer is 2
+*/
 #include <iostream>
 #include <string>
 #include <map>
